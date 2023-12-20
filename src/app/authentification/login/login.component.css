@@ -1,0 +1,28 @@
+.login
+{
+    background-color: #EB7575;
+background-image: linear-gradient(180deg,#EB7575 10%,#EB7575 100%);
+background-size: cover;
+}
+
+body {
+    height: 100vh;
+}
+
+.se-login {
+    background: #eb7575;
+    border-color: #eb7575;
+}
+
+.se-login:hover {
+    background: #da6161;
+    border-color: #eb7575;
+}
+
+.bg-login-image {
+    background: url(https://cdn-icons-png.flaticon.com/512/5087/5087579.png);
+    background-position: center;
+    background-size: cover;
+    border-right: 1px solid #c18cd4;
+
+}

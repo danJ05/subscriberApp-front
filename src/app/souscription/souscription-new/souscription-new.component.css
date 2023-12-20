@@ -1,0 +1,81 @@
+.title-sec{
+    text-align: center;
+}
+
+.title-sec h3 {
+    margin-top: 55px;
+}
+
+.sec-souscription {
+    padding-top: 5px;
+    background: #f7f7f7;
+    /*height: 100vh;*/
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+fieldset {
+    border: 1px solid #dbd6d6;
+    background: white !important;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+legend {
+    background: #f3e1a3;
+    padding: 8px;
+    color: black;
+}
+
+.cont-form {
+    padding: 21px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.paiement label {
+    margin-left: 25px;
+}
+
+.paiement input {
+    position: relative;
+    left: 25px;
+}
+
+.paiement .form-check {
+    border: 1px solid #c8c5c5;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.info-mode-paiement-orange {
+    background: #fcfcfc !important;
+    padding: 18px;
+    position: relative;
+    bottom: 25px;
+}
+
+.btn-act {
+    text-align: center;
+}
+
+.btn-act .soumettre {
+    background: #EB7575;
+    border-style: none;
+    width: 40%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sty-form {
+    display: inline-grid;
+    width: 31%;
+    margin-right: 19px;
+}

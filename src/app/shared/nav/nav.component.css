@@ -1,0 +1,25 @@
+img.i-logo {
+    width: 55px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: #EB7575 !important;
+}
+
+.btn-action-souscription {
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-action-souscription:hover {
+    background: white;
+    color: #eb7575;
+}
+
+a.nav-link.btn-action-login {
+    color: white !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
