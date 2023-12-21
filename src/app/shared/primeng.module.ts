@@ -16,22 +16,22 @@ import { TabViewModule } from 'primeng/tabview';
 
 
 @NgModule({
-  
-  exports:[
+
+  exports: [
     ButtonModule,
     TableModule,
-        InputTextModule,
-        RadioButtonModule,
-        CalendarModule,
-        InputMaskModule,
-        DropdownModule,
-        PasswordModule,
-        DynamicDialogModule,
-        DialogModule,
-        InputNumberModule,
-        InputTextareaModule,
-        CheckboxModule,
-        TabViewModule
+    InputTextModule,
+    RadioButtonModule,
+    CalendarModule,
+    InputMaskModule,
+    DropdownModule,
+    PasswordModule,
+    DynamicDialogModule,
+    DialogModule,
+    InputNumberModule,
+    InputTextareaModule,
+    CheckboxModule,
+    TabViewModule
   ]
 })
 export class PrimengModule { }

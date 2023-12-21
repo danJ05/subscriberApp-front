@@ -7,3 +7,7 @@
     opacity: .5;
     z-index: 0 !important;
 }
+
+.log-admin img {
+    width: 50%;
+}

@@ -1,0 +1,57 @@
+.sec-im img {
+    width: 100%;
+}
+
+.sec-im {
+    
+    width: 100%;
+    height: 88vh;
+    background-size: cover;
+}
+
+body {
+    overflow-y: hidden !important;
+}
+
+.info-obj {
+    background: white;
+    height: 88vh;
+    border-radius: 26px 0px 0px 26px;
+    padding: 65px 20px 20px 15px;
+}
+
+.object-content .col-6 {
+    padding: 0;
+}
+
+.object-content
+{
+    background-image: url(../../../../assets/bg.jpg);
+    background-size: 51% 100%;
+}
+
+h2.sec-title {
+    margin-top: 45px;
+}
+
+.sec-title-obj
+{
+    margin-bottom: 15px;
+}
+
+.sec-valid {
+    margin-top: 55px !important;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.call-to-action- {
+    width: 100%;
+    background: #f65f5f;
+    border-style: none;
+    height: 45px;
+}
+
+.progress-bar {
+    background: #eb7575 !important;
+}

@@ -8,16 +8,21 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
-import { SouscriptionModule } from './souscription/souscription.module';
-import { AdminModule } from './admin/admin.module';
-import { JwtInterceptor } from './Interceptors/jwt.interceptor';
+import { JwtInterceptor } from './core/Interceptors/jwt.interceptor';
+import { BaseComponent } from './core/components/layout/base/base.component';
+import { CoreModule } from './core/core.module';
+import { SouscriptionModule } from './features/souscription/souscription.module';
+import { ObjectifModule } from './features/objectif/objectif.module';
+import { AuthentificationModule } from './features/authentification/authentification.module';
+import { DashboardModule } from './features/dashboard/dashboard.module';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BaseComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,12 +34,15 @@ import { JwtInterceptor } from './Interceptors/jwt.interceptor';
     
 
     // Core and Share module 
-    CoreModule,
     SharedModule,
+    CoreModule,
 
     // Feature modules
     SouscriptionModule,
-    AdminModule
+    ObjectifModule,
+    AuthentificationModule,
+    DashboardModule
+
     
   ],
   providers: [
